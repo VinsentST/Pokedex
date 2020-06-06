@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Yatra+One|Yeon+Sung&display=swap');
+
+/* font-family: 'Yeon Sung', cursive;
+font-family: 'Yatra One', cursive; */
+.pokeimg {
+	max-width: 96px;
+	max-height: 96px;
+}
+
+@font-face {
+	font-family: 'Pokemon';
+	src: URL('./components/layout/Pokemon Solid.ttf') format('truetype');
+}
+
+body {
+	background-color: rgb(0, 139, 204);
+	color: #fff;
+	font-family: 'Yeon Sung', cursive;
+}
+
+nav {
+	background-color: #0251fd;
+}
+
+a {
+	color: #FFDE00;
+}
+
+a:hover {
+	color: #B3A125;
+}
+
+a,
+.card-title,
+h5,
+th {
+	font-family: 'Yatra One', cursive;
+}
+
+a,
+h5 {
+	font-size: 1.75rem;
+}
+
+.card,
+.card-group {
+	background-color: #3B4CCA;
+	color: #fff;
+}
+
+.poke-desc {
+	font-size: 1.5rem;
+}
+
+td,
+th {
+	color: #fff;
+}
+
+
+.navbar-brand {
+	letter-spacing: 0.2rem;
+}
+
+.poke-font {
+	font-family: 'Pokemon', sans-serif;
+}
+
+.type-normal {
+	background-color: grey;
+}
+
+.type-poison {
+	background-color: darkmagenta;
+}
+
+.type-ground {
+	background-color: brown;
+}
+
+.type-rock {
+	background-color: burlywood;
+}
+
+.type-bug {
+	background-color: greenyellow;
+}
+
+.type-ghost {
+	background-color: blueviolet;
+}
+
+.type-steel {
+	background-color: silver;
+}
+
+.type-dragon {
+	background-color: midnightblue;
+}
+
+.type-dark {
+	background-color: darkslategrey;
+}
+
+.type-flying {
+	background-color: lightseagreen;
+}
+
+.type-fire {
+	background-color: orangered;
+}
+
+.type-psychic {
+	background-color: palevioletred;
+}
+
+.type-ice {
+	background-color: lightblue;
+}
+
+.type-none {
+	background-color: black;
+}
+
+.type-fighting {
+	background-color: red;
+}
+
+.type-water {
+	background-color: darkblue;
+}
+
+.type-grass {
+	background-color: green;
+}
+
+.type-electric {
+	background-color: yellow;
+}
+
+.type-fairy {
+	background-color: pink;
+}
+
+.stat-speed {
+	background-color: orchid;
+}
+
+.stat-hp {
+	background-color: orangered;
+}
+
+.stat-attack {
+	background-color: teal;
+}
+
+.stat-special-attack {
+	background-color: goldenrod;
+}
+
+.stat-special-defense {
+	background-color: blue;
+}
+
+.stat-defense {
+	background-color: green;
+}
+.pokemon-card__catch {
+	padding: 10px 20px;
+	font-size: 1em;
+	color:  rgb(210, 214, 231); 
+	border: 2px solid  rgb(30, 58, 180);
+	background: none;
+  }
