@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In this application you can catch the Pokemon and see the date of his cathing. This information is saved in JSON-file.Also you can see only pokemons were cathed.
+In this application you can catch a pokemon and see the date of his cathing. This information is saved in JSON-file.Also you can see only pokemons were cathed.
 
 ## Available Scripts
 
